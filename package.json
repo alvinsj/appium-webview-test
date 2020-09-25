@@ -1,0 +1,21 @@
+{
+  "name": "appium-webview-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ -t 180000"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Alvin Ng"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.1.2",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.0.1",
+    "webdriverio": "^6.5.2"
+  }
+}
